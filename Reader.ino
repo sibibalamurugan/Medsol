@@ -1,22 +1,4 @@
 
-/******************************************
-        PURPOSE:  Learn to use the MF522-AN RFID card reader 
-  Created by      Rudy Schlaf for www.makecourse.com
-  DATE:   2/2014
-*******************************************/
-
-/*
- * This sketch uses the MFRC522 Library to use ARDUINO RFID MODULE KIT 13.56 MHZ WITH TAGS SPI W AND R BY COOQROBOT.
- * The library file MFRC522.h has a wealth of useful info. Please read it.
- * The functions are documented in MFRC522.cpp.
- *
- * Based on code Dr.Leong   ( WWW.B2CQSHOP.COM )
- * Created by Miguel Balboa (circuitito.com), Jan, 2012.
- * Rewritten by Søren Thing Andersen (access.thing.dk), fall of 2013 (Translation to English, refactored, comments, anti collision, cascade levels.)
- * 
- * This library has been released into the public domain.
-*/
-
 
 #include <SPI.h>//include the SPI bus library
 #include <MFRC522.h>//include the RFID reader library
@@ -49,7 +31,7 @@ void setup() {
 
 int block=2;//this is the block number we will write into and then read. Do not write into 'sector trailer' block, since this can make the block unusable.
                           
-byte blockcontent[16] = {"SubScribe______"};//an array with 16 bytes to be written into one of the 64 card blocks is defined!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+byte blockcontent[16] = {"SubScribe______"};
 //byte blockcontent[16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};//all zeros. This can be used to delete a block.
 byte readbackblock[18];//This array is used for reading out a block. The MIFARE_Read method requires a buffer that is at least 18 bytes to hold the 16 bytes of a block.
 
