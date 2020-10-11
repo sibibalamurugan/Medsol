@@ -1,4 +1,4 @@
-# medsol
+# Medsol
 RFID based Digitized Smart Solution to the Existing Method of Writing  Medical Prescription and Drug Regulation
 The existing method of writing prescriptions in a piece of paper by a doctor is very inefficient,
 could not keep track of the patient’s history and the legibility of the writing poses a setback to
@@ -19,6 +19,6 @@ prescription till he gets the medicine.
 Required Items-
 1.Arduino Uno/Nano
 2.Mifare RC522 RFID Module
-3.Usb connecting PC to system
+3.Usb connecting PC to Embedded system
 4.LED Lights
 5.Buzzer (Optional)
