@@ -15,3 +15,10 @@ customer without any confusion caused by the legibility of the writing by the do
 the pharmacist can raise the bill easily in his computer without wasting any time. The patient
 need not worry about the confidentiality of his disease, because no one can read his
 prescription till he gets the medicine.
+
+Required Items-
+1.Arduino Uno/Nano
+2.Mifare RC522 RFID Module
+3.Usb connecting PC to system
+4.LED Lights
+5.Buzzer (Optional)
