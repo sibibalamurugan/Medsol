@@ -2,7 +2,7 @@
 RFID based Digitized Smart Solution to the Existing Method of Writing  Medical Prescription and Drug Regulation
 The existing method of writing prescriptions in a piece of paper by a doctor is very inefficient,
 could not keep track of the patient’s history and the legibility of the writing poses a setback to
-the pharmacies. Therefore we intend to greatly improvise the existing method by digitizing the
+the pharmacies. Therefore I intend to greatly improvise the existing method by digitizing the
 whole system and providing a smarter way to prescribe medicines. In this new system, doctors
 would be provided with a RFID prescriber (a RFID-Arduino based “Smart Kit”) device which will
 be connected to their computer using a USB connection and software installed in their
@@ -16,9 +16,9 @@ the pharmacist can raise the bill easily in his computer without wasting any tim
 need not worry about the confidentiality of his disease, because no one can read his
 prescription till he gets the medicine.
 
-Required Items-
+Required Items (for the Smart Kit)-
 1.Arduino Uno/Nano
-2.Mifare RC522 RFID Module
+2.Mifare RC522 RFID Module with RFID ID Cards
 3.Usb connecting PC to Embedded system
 4.LED Lights
 5.Buzzer (Optional)
