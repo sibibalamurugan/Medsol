@@ -19,8 +19,13 @@ need not worry about the confidentiality of his disease, because no one can read
 prescription till he gets the medicine.
 
 Required Items (for the Smart Kit)-
+
 1.Arduino Uno/Nano
+
 2.Mifare RC522 RFID Module with RFID ID Cards
+
 3.Usb connecting PC to Embedded system
+
 4.LED Lights
+
 5.Buzzer (Optional)
