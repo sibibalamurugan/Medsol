@@ -1,5 +1,7 @@
 # Medsol
 RFID based Digitized Smart Solution to the Existing Method of Writing  Medical Prescription and Drug Regulation
+
+
 The existing method of writing prescriptions in a piece of paper by a doctor is very inefficient,
 could not keep track of the patient’s history and the legibility of the writing poses a setback to
 the pharmacies. Therefore I intend to greatly improvise the existing method by digitizing the
